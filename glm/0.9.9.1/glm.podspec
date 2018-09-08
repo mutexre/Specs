@@ -94,8 +94,8 @@ Pod::Spec.new do |s|
   # s.exclude_files = "Classes/Exclude"
 
   s.header_mappings_dir = "glm"
-  s.preserve_paths = "glm/**/*.{hpp,inl}"
-  s.public_header_files = "glm/**/*.{hpp,inl}"
+  s.preserve_paths = "glm/**/*.{hpp,inl,h}"
+  s.public_header_files = "glm/**/*.{hpp,inl,h}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
