@@ -128,8 +128,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "glm"
-  s.ios.frameworks = [ "CoreGraphics", "CoreText" ]
-  s.osx.frameworks = [ "CoreGraphics", "CoreText" ]
+  s.frameworks = [ "CoreGraphics", "CoreText" ]
 
   # s.library   = "glm"
   # s.libraries = "iconv", "xml2"
