@@ -147,7 +147,7 @@ Pod::Spec.new do |s|
   s.xcconfig = {
     "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/SceneGraph/Libs/glm/detail",
     "GCC_PREPROCESSOR_DEFINITIONS" => "$(GCC_PREPROCESSOR_DEFINITIONS) GLM_ENABLE_EXPERIMENTAL",
-    "OTHER_CFLAGS" => "-fno-modules"
+    "OTHER_CFLAGS" => ""
   }
   
   s.dependency "glm"
